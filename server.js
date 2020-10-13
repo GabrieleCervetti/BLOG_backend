@@ -30,7 +30,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-var routes = require('./api/routes/todoListRoutes'); //importing route
+var routes = require('./api/routes/blogRoutes'); //importing route
 routes(app); //register the route
 
 
