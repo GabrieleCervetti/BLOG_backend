@@ -1,26 +1,27 @@
 {
-  "name": "blog_backhand",
+  "name": "blog_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GabrieleCervetti/BLOG_backhand.git"
+    "url": "git+https://github.com/GabrieleCervetti/BLOG_backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GabrieleCervetti/BLOG_backhand/issues"
+    "url": "https://github.com/GabrieleCervetti/BLOG_backend/issues"
   },
-  "homepage": "https://github.com/GabrieleCervetti/BLOG_backhand#readme",
+  "homepage": "https://github.com/GabrieleCervetti/BLOG_backend#readme",
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
   }
 }
